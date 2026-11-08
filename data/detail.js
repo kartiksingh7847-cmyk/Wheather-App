@@ -60,7 +60,6 @@ export async function  fetchDetail(value,output,forecast,savedOutput){
     );
  
     let data2 = await response2.json();
-    console.log(data1, data2);
     return {
       location: data1.results[0],
       wheather: data2
