@@ -33,9 +33,9 @@
   transform: scale(0.97);
 }
 .loader{
+  align-self: center;
   position: absolute;
   top: 40%;
-  right: 45%;
   height: 50px;
   width: 50px;
   border: 5px solid black;
